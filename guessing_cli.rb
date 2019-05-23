@@ -7,5 +7,7 @@ def run_guessing_game
    input = gets.chomp 
    answer = rand(1..6)
    if input == answer 
-     
+      puts "You guessed the correct number!"
+   elsif 
+      puts ""
 end 
